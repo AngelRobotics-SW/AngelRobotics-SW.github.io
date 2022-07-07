@@ -4,5 +4,5 @@
 
 ### Table of Contents
 
-* **Installation (Required)**
-* Alternatives
+* [**Installation (Required)**](post/installation-required.md#m30-.)
+* [Alternatives](post/alternatives/#.)

@@ -36,7 +36,7 @@ M30을 위한 설치 단계는 크게 3가지 단계가 있습니다.
 git clone https://github.com/AGR-SW/xavier_scripts.git
 ```
 
-#### 1.2 Set-up 스크립트 실
+#### 1.2 Set-up 스크립트 실행
 
 {% hint style="info" %}
 Set-up은 네트워크 환경에 따라 통상적으로 5-20분까지 소요 될 수 있습니다.
@@ -66,7 +66,7 @@ Build 스크립트는 AM에서의 Jetpack GPIO,유저 앱, CM, 모바일 앱, �
 
 ### 3. Execute
 
-#### 3.1 Execute 스크립트 실
+#### 3.1 Execute 스크립트 실행
 
 &#x20;Execute 스크립트는 AM의 모든 기능을 가동시키기 위한 스크립트입니다.
 
