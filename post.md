@@ -5,4 +5,4 @@
 ### Table of Contents
 
 * **Installation (Required)**
-* **Alternatives**
+* Alternatives

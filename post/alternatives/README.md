@@ -5,17 +5,14 @@
 Table of Contents
 
 * Resources
-* [Set locale](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#set-locale)
-* [Setup Sources](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources)
-* [Install ROS 2 packages](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages)
-* [Environment setup](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#environment-setup)
-  * [Sourcing the setup script](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#sourcing-the-setup-script)
-* [Try some examples](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#try-some-examples)
-* [Next steps after installing](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#next-steps-after-installing)
-* [Using the ROS 1 bridge](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#using-the-ros-1-bridge)
-* [Additional RMW implementations (optional)](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#additional-rmw-implementations-optional)
-* [Troubleshooting](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#troubleshooting)
-* [Uninstall](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#uninstall)
+* Set locale
+* Setup Sources
+* Install ROS 2 packages
+* Environment setup
+  * Sourcing the setup script
+* Try some examples
+* Troubleshooting
+* Uninstall
 
 Debian packages for ROS 2 Foxy Fitzroy are currently available for Ubuntu Focal.
 
