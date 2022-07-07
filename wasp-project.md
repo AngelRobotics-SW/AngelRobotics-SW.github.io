@@ -1,9 +1,7 @@
 # WaSP Project
 
-## A Miraculous Step for BETTER LIFE&#x20;
+## WaSP : Wearable-robot Standard Platform
 
-엔젤로보틱스는 로봇 기술로 누구나 모두의 일상을 즐길 수 있도록 기여합니다.
 
-엔젤로보틱스는 세계 1등의 웨어러블 로봇 기술을 지향하며 저희의 도움이 필요한 분들을 도와드리기 위해 항상 고민하고 연구하고 있습니다.
 
-\
+![](<.gitbook/assets/Screenshot from 2022-07-07 21-27-12.png>)
