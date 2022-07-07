@@ -1,7 +1,3 @@
----
-layout: editorial
----
-
 # Installation (Required)
 
 ## M30 설치 가이드 페이지 입니다.
