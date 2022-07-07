@@ -4,9 +4,13 @@ coverY: 0
 
 # M30 SW Documentation
 
-## 안녕하세요. SW Documentation에  오신걸 환영합니다!&#x20;
+## 안녕하세요.:tada:
 
-SW Documentation은 엔젤로보틱스에서 제공하는 M30에 대한 상세한 메뉴얼을 제공합니다.
+
+
+<mark style="color:blue;">**M30 SW Documentation에 오신걸 환영합니다!**</mark>&#x20;
+
+M30 SW Documentation은 엔젤로보틱스에서 제공하는 M30의 소프트웨어에 대한 상세한 가이드 메뉴얼을 목표로 하고 있습니다. 설치 가이드를 시작으로 Dependency 파일, 시스템 구조, 3rd party 개발자를 위한 커스텀 가이드 등의 M30의 SW의 전반적인 내용을 담을 예정입니다. 많은 기대 부탁드립니다 :clap:
 
 ## A Miraculous Step for BETTER LIFE&#x20;
 
