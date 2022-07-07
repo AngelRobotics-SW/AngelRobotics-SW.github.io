@@ -4,5 +4,5 @@
 
 ### Table of Contents
 
-* Installation (Required)
-* Alternatives
+* **Installation (Required)**
+* **Alternatives**
