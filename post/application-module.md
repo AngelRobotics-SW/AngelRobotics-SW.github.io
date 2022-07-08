@@ -45,7 +45,7 @@ Set-up은 네트워크 환경에 따라 통상적으로 5-20분까지 소요 될
 처음 M30 소프트웨어를 설치위하기 위에서 셋팅 및 설치 하기 위한 명령어를 실행합니다.
 
 ```
-. xavier_setup_script.sh
+. xavier_scripts/xavier_setup_script.sh
 ```
 
 "Set-up completed !" 가 뜬다면 Set-up 은 완료입니다.&#x20;
@@ -59,7 +59,7 @@ Build 스크립트는 AM에서의 Jetpack GPIO,유저 앱, CM, 모바일 앱, �
 아래 명령어를 통해 스크립트를 실행합니다.&#x20;
 
 ```
-. xavier_build_script.sh
+. xavier_scripts/xavier_build_script.sh
 ```
 
 
@@ -73,6 +73,6 @@ Build 스크립트는 AM에서의 Jetpack GPIO,유저 앱, CM, 모바일 앱, �
 아래의 명령어를 통해서 모든 노드를 실행합니다.
 
 ```
-. xavier_execute_script.sh
+. xavier_scripts/xavier_execute_script.sh
 ```
 
