@@ -20,6 +20,6 @@ description: This page illustrate how to program the Control Module using ST-Lin
 
 ### Program the Binary File
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (3).png>)
 
 * Aware of the settings!
