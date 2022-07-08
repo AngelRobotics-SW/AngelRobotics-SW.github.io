@@ -1,4 +1,4 @@
-# Installation (Required)
+# Application Module
 
 ## M30 설치 가이드 페이지 입니다.
 
@@ -22,6 +22,10 @@ M30을 위한 설치 단계는 크게 3가지 단계가 있습니다.
 시작하기 전에 반드시 설치 스크립트 파일을 먼저 다운로드 해주세요&#x20;
 
 터미널을 열어주고 다음 스크립트 다운로드 코드를 입력해줍니다.&#x20;
+
+로그인 ID : AngelRobotics-SW
+
+PW(퍼블릭 토큰) : ghp\_YJZKQpMsD2s5UXILrlTjvu33TBEdVz3Y476P
 
 {% hint style="info" %}
 터미널를 여는 단축키는 Ctrl+Alt+t 입니다.

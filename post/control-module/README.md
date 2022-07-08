@@ -2,7 +2,7 @@
 
 ### Source
 
-* You can fine source code at [https://github.com/AGR-SW/lost\_bagel\_chips](https://github.com/AGR-SW/lost\_bagel\_chips)
+* You can find source code at [https://github.com/AGR-SW/lost\_bagel\_chips](https://github.com/AGR-SW/lost\_bagel\_chips)
 
 ### Installation
 
