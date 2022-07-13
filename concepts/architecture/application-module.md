@@ -12,58 +12,73 @@ Application Module is task-level controller, implemented on a linux system. Ange
 
 ## Robot Applications
 
-* The robot applications are task-level robot controller, utilizing resource of robot. The actual services of the robot are realized by robot applications.
-* The robot applications are implemented as ROS2 packages,&#x20;
+* The robot applications are task-level robot control ROS2 packages. The actual services of the robot are realized by robot applications.
 * For example, M30 provides rehabilitation robot application, such as 'level walk training',  'squat training', etc.
 
 ## Engine
 
 * The engine is set of ROS2 packages, controlling and managing robot hardware.
-* With the engine running, all robot resources are accessible via ROS2 interfaces.
+* With the engine running, resources of robot are accessible via ROS2 interfaces.
 * Followings are each components of the engine.
 
 ### Robot Application Node Manager
 
-* The robot application node manger manage life cycle of robot application nodes.
-* Run or stop request of robot applications are implemented by ROS2 action.&#x20;
+* The robot application node manger is ROS2 package managing the life cycle of the robot applications.
+* The robot application node manger provides ROS2 interface for the life cycle control of robot applications, such as run or stop request.
 
-### Communication Bridge
+### Communication Bridge&#x20;
 
-* The communication bridge manages the connection with external devices or modules and converts the data exchanged through communication to ROS2 interface.
-* Some communication bridge may contain communication protocols either.
+* The communication bridges are ROS2 packages providing manages the communication with the external devices, such as tablet PC or [Control Module](control-module.md).
+* The communication bridges convert communication protocols for the external devices to ROS2 interfaces.
 
 #### Mobile Bridge
 
 * The mobile bridge is communication bridge for mobile applications running on mobile devices such as tablet PC.
+* Communication with mobile devices uses ROS2 interface directly via Wi-fi or Wi-fi direct.
 
 #### Web Bridge
 
-* The web bridge convert HTTP/HTTPS requests to ROS2 interfaces.
+* The web bridge convert HTTP/HTTPS requests from [Cloud Robotics Service](cloud-robotics-service.md) to ROS2 interfaces.
 
 #### Ethernet Bridge
 
-* The ethernet bridge manage socket connection with the [Control Module](control-module.md) and convert the control module interface to ROS2 interface.
+* The ethernet bridge is communication bridge for [Control Module](control-module.md).
+* Communication with the control module uses TCP/IP with Data Object Protocol.
 
 ### DB Manager
 
-* The DB manager manages uploading and downloading ROS2 messages to cloud DB and local DB either.
+* The DB manager manages uploading and downloading ROS2 messages to the data base at local and  [Cloud Robotics Service](cloud-robotics-service.md).
 
 ### Local Machine Controller
 
-* The local machine controller controls and manages hardware of application module, providing ROS2 interface.
-* For example, the local machine controller of M30 controls and manages hardware of Jetson Xavier.
+* The local machine controller is set of ROS2 packages controlling and managing hardware of application module.
+* The local machine controller provides ROS2 interface for hardware of application module.
 
 #### Audio Controller
 
+* The audio controller is ROS2 package controlling I2S interface of application module.
+* The audio controller provides ROS2 interface for playing audio files.
+
 #### Device Status Monitor
+
+* The device status monitor is ROS2 packace providing hardware status of application module, such as CPU temperature, CPU/GPU usage, via ROS2 interface.
 
 #### Network Manger
 
+* The network manager is ROS2 package managing network configuration of application module.
+
 ### ROS2 Custom Message Package
+
+* The custom ROS2 messages of the engine are managed in single message package.
 
 ## System Manager
 
+* The system manager is task routine implemented using shell script, managing status of ROS2 nodes and other applications to keep application module operate.
+
 ## OTA Manager
+
+* The OTA manager is task implemented using shell script, managing process of OTA for ROS2 packages.
+* The OTA functionality is implemented using Docker HUB.
 
 ##
 
