@@ -22,6 +22,10 @@ Application Module is task-level controller, implemented on a linux system. Ange
 * With the engine running, resources of robot are accessible via ROS2 interfaces.
 * Followings are each components of the engine.
 
+### Robot Data Manager
+
+* The robot data manger is ROS2 package that process and publish basic robot data, such as robot coordinates.
+
 ### Robot Application Node Manager
 
 * The robot application node manger is ROS2 package managing the life cycle of the robot applications.
