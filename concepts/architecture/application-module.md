@@ -2,7 +2,9 @@
 
 Application Module is task-level controller, implemented on a linux system. Angel Legs M30 use [NVIDIA Jetson Xavier](https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit) as the application module.
 
-![Application Module Architecture](../../.gitbook/assets/image.png)
+
+
+![Application Module Architecture](<../../.gitbook/assets/image (2).png>)
 
 ## Dependencies
 
